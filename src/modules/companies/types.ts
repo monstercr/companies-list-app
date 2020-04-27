@@ -6,4 +6,6 @@ export interface Company {
 
 export interface Companies {
   data: Company[];
+  error: boolean;
+  requesting: boolean;
 }

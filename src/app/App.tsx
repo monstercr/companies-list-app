@@ -1,7 +1,10 @@
 import React from 'react';
 
+import { ApiConfig } from '../config';
+
 function App() {
-  return <div className="App">Hello</div>;
+  console.log(ApiConfig.URL);
+  return <div className="App">Hello World</div>;
 }
 
 export default App;

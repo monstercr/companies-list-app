@@ -1,6 +1,10 @@
 import { combineReducers } from '@reduxjs/toolkit';
 
-const rootReducer = combineReducers({});
+import companies from '../modules/companies/companiesSlice';
+
+const rootReducer = combineReducers({
+  companies
+});
 
 export type RootState = ReturnType<typeof rootReducer>;
 
